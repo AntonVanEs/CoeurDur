@@ -8,8 +8,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3) If you don't have Node.js installed already
 * Download it from https://nodejs.org/en/download/ and install it.
 * Run the command "npm install -g @angular/cli" to globally install CLI
-5) In your shell, navigate to the folder you cloned the repo into and run the command "npm install". This might take some time to execute.
-6) To test if it worked, run the command "ng serve" and in your browser navigate to "localhost:4200". The website should be displayed here.
+4) In your shell, navigate to the folder you cloned the repo into and run the command "npm install". This might take some time to execute.
+5) To test if it worked, run the command "ng serve" and in your browser navigate to "localhost:4200". The website should be displayed here.
 
 ## Development server
 
