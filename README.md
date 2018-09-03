@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
-# HOW TO CLONE
+# How to clone repository
 1) In Git Bash (download Git from https://git-scm.com/), navigate to the desired destination folder.
 2) Run the command "git clone https://github.com/TheTaijitu/CoeurDur.git". This will start copying the files to your current folder.
 3) If you don't have Node.js installed already
