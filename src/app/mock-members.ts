@@ -1,6 +1,8 @@
 import { Member, Gender } from './member';
 
 //TODO: Turn this stuff into JSON 
+var date = new Date()
+date.setFullYear(1900);
 
 export const MEMBERS: Member[] = [
     new Member(0, "Lucas", "Togt", "van der", new Date(1998, 0, 26), Gender.male, "Great Moves"),
@@ -14,5 +16,5 @@ export const MEMBERS: Member[] = [
     new Member(8, "Edward", "Hissink", "", new Date(1998, 0, 12), Gender.male, "Great Moves"),
     new Member(9, "Joris", "Kerkhoff", "", new Date(1998, 0, 26), Gender.male, "Great Moves"),
     new Member(10, "Daniel", "Otten", "van", new Date(1998, 6, 20), Gender.male, "Great Moves"),
-    new Member(999, "Subject", "Test", "van de", new Date(), Gender.female, "Ik ben gewoon een testpersoon en ik ben vandaag jarig!"),  
+    new Member(999, "Subject", "Test", "van de", date, Gender.female, "Ik ben gewoon een testpersoon en ik ben vandaag jarig!"),  
 ];
