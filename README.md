@@ -6,10 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1) In Git Bash (download Git from https://git-scm.com/), navigate to the desired destination folder.
 2) Run the command "git clone https://github.com/TheTaijitu/CoeurDur.git". This will start copying the files to your current folder.
 3) If you don't have Node.js installed already
-
-  a) Download it from https://nodejs.org/en/download/ and install it.
-
-  b) Run the command "npm install -g @angular/cli" to globally install CLI
+* Download it from https://nodejs.org/en/download/ and install it.
+* Run the command "npm install -g @angular/cli" to globally install CLI
 5) In your shell, navigate to the folder you cloned the repo into and run the command "npm install". This might take some time to execute.
 6) To test if it worked, run the command "ng serve" and in your browser navigate to "localhost:4200". The website should be displayed here.
 
