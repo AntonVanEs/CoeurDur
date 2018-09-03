@@ -1,0 +1,5 @@
+<ul *ngIf="birthdays">
+  <li *ngFor="let member of birthdays">
+    <abbr title="{{member.getFullName()}}"><strong>{{ member.firstName }}</strong></abbr>{{ getMessage(member) }}
+  </li>
+</ul>

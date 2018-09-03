@@ -14,4 +14,8 @@ export class MemberService {
   getMembers() : Observable<Member[]> {
     return of(MEMBERS);
   }
+
+  getMember(id: string) : Observable<Member> {
+    return of(MEMBERS.find(member => member.getIdString() === id));
+  }
 }

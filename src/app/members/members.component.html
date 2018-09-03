@@ -1,0 +1,8 @@
+<h2>Ledenlijst</h2>
+<ul class="members">
+  <li *ngFor="let member of members">
+    <a routerLink="/member/{{member.getIdString()}}">
+      <span class="badge">{{ member.getAge() }}</span>{{ member.firstName + " " + member.insertion + " " + member.lastName }}
+    </a>
+  </li>
+</ul>

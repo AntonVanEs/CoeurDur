@@ -1,0 +1,10 @@
+<div class='details'>
+    <p><span>Naam: </span>{{ member.getFullName() }}</p>
+    <p><span>Geboortedatum: </span>{{ member.dob | date: 'dd/MM/yyyy'}} ({{member.getAge()}} jaar)</p>
+    <p><span>Geslacht: </span>{{ member.gender }}</p>
+    <div class="bio">
+        <h4>Bio:</h4>
+        <p>{{ member.bio }}</p>
+    </div>
+</div>
+
