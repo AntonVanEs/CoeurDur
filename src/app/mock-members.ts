@@ -2,7 +2,7 @@ import { Member, Gender } from './member';
 
 //TODO: Turn this stuff into JSON 
 var date = new Date()
-date.setFullYear(1900);
+date.setFullYear(date.getFullYear() - 25);
 
 export const MEMBERS: Member[] = [
     new Member(0, "Lucas", "Togt", "van der", new Date(1998, 0, 26), Gender.male, "Great Moves"),
