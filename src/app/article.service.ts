@@ -14,4 +14,8 @@ export class ArticleService {
   getArticles() : Observable<Article[]> {
     return of(ARTICLES)
   }
+
+  getArticle(url: string) : Observable<Article> {
+    return of(ARTICLES.find(article => article.getUrl() === url));
+  }
 }
