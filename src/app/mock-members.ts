@@ -18,3 +18,5 @@ export const MEMBERS: Member[] = [
     new Member(10, "Daniel", "Otten", "van", new Date(1998, 6, 20), Gender.male, "Great Moves"),
     new Member(999, "Subject", "Test", "van de", date, Gender.female, "Ik ben gewoon een testpersoon en ik ben vandaag jarig!"),  
 ];
+
+// TEST CHANGE
