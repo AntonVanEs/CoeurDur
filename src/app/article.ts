@@ -8,7 +8,7 @@ export class Article {
         words.forEach(word => {
             result += word + " ";
         });
-        return result
+        return result.substring(0, result.length - 1);
     }
 
     getUrl() : string {
