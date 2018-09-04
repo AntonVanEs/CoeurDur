@@ -1,21 +1,16 @@
 
-nav a {
-    padding: 5px 10px;
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    /*position: fixed;*/
+    bottom: 0;
+}
+
+#main-footer a {
+    color: #2690d4;
     text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-    background-color: #eee;
-    border-radius: 4px;
-  }
-
-nav a:visited {
-  color: #607d8b;
-}
-
-nav a:hover {
-  color: #039be5;
-  background-color: #cfd8dc;
-}
-nav a.active {
-  color: #039be5;
 }

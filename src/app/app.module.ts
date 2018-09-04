@@ -9,6 +9,7 @@ import { MemberDetailComponent } from './member-detail/member-detail.component';
 import { BirthdayComponent } from './birthday/birthday.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { PageNotFoundComponent } from './not-found/not-found.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PageNotFoundComponent } from './not-found/not-found.component';
     BirthdayComponent,
     ArticlesComponent,
     PageNotFoundComponent,
+    NavigationBarComponent,
   ],
   imports: [
     BrowserModule,

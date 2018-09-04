@@ -34,6 +34,6 @@ export class BirthdayComponent implements OnInit {
   }
 
   getMessage(member: Member) : string {
-    return " is vandaag jarig! " + (member.gender === "man" ? "Hij" : "Zij") + " is " + member.getAge() + " jaar geworden. Hœlde!";
+    return " is vandaag " + member.getAge() + " jaar geworden. Hœlde!";
   }
 }
