@@ -2,23 +2,46 @@
     min-height: 100%;
 }
 
-.details {
-    background-color: #eee;
-    margin: 0;
-    padding: 1em;
+#profile-picture {
+    width: 350px;
+    margin: 0.8em 0;
 }
 
-.details span {
-    font-weight: bold;
+.details ul {
+    background: #2690d4;
+    margin: 0;
+    padding: 1em 0 ;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.details li {
+    list-style: none;
+    color: #eaeaea;
 }
 
 .bio {
-    border: 1px #999 solid;
-    padding: 0 1em;
+    background: #333;
     margin: 0;
+    padding: 1em 0 ;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.bio h3 {
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .bio p {
-    background-color: #fff;
-    padding: 1em;
+    font-style: italic ;
+    text-align: justify;
+    color: #eaeaea;
+    margin: 0 1em;
+    padding: 0;
 }
