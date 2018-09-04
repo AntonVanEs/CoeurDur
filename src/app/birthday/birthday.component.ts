@@ -12,6 +12,7 @@ export class BirthdayComponent implements OnInit {
 
   members: Member[];
   birthdays: Member[] = [];
+  display: boolean = false;
 
   constructor(private memberService: MemberService) { }
 
@@ -29,6 +30,7 @@ export class BirthdayComponent implements OnInit {
       let today = new Date();
       if (member.dob.getDate() === today.getDate() && member.dob.getMonth() === today.getMonth()) {
         this.birthdays.push(member);
+        this.display = true;
       }
     });
   }

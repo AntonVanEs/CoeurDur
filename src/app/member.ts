@@ -33,4 +33,8 @@ export class Member {
         var age = today.getFullYear() - this.dob.getFullYear() - thisYear;
         return age;
     }
+
+    getProfilePicture = () => {
+        return this.getFullName().toLowerCase().replace(/\s+/g, '_');
+    }
 }
