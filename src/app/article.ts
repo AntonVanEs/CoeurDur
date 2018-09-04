@@ -12,6 +12,6 @@ export class Article {
     }
 
     getUrl() : string {
-        return this.title.toLowerCase().replace(" ", "_");
+        return this.title.toLowerCase().replace(/\s+/g, "_");
     }
 }
