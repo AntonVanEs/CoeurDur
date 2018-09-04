@@ -71,6 +71,10 @@ ul {
     padding-bottom:0;
 }
 
+#section-a {
+    background: #fff;
+}
+
 #showcase .content-wrap,
 #section-a .content-wrap, {
     padding: 0 1.5em;
