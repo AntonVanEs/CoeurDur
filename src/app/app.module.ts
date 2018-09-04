@@ -10,6 +10,7 @@ import { BirthdayComponent } from './birthday/birthday.component';
 import { ArticlesComponent } from './articles/articles.component';
 import { PageNotFoundComponent } from './not-found/not-found.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { MediaComponent } from './media/media.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
     ArticlesComponent,
     PageNotFoundComponent,
     NavigationBarComponent,
+    MediaComponent,
   ],
   imports: [
     BrowserModule,

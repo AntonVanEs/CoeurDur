@@ -1,0 +1,41 @@
+.main-wrapper {
+    min-height: 100%;
+    background: #eaeaea;
+}
+
+ul {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+}
+
+li {
+    list-style: none;
+    text-align: justify;
+    margin: 0;
+    padding: 0 0em;
+    background: #333;
+    margin-bottom: 1em;
+}
+
+.content {
+    padding: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: #2690d4;
+}
+
+.article-title {
+    margin-bottom: 0.5em;
+    padding: 0;
+    color: #fff;
+}
+
+.article-text {
+    color:#eaeaea;
+    margin-top: 0 1em 0 1em;
+    padding: 0;
+}

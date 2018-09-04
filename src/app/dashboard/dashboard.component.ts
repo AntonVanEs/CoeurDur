@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ArticleService } from '../article.service';
-
-import { Article } from '../article';
 
 @Component({
   selector: 'app-dashboard',
@@ -10,16 +7,9 @@ import { Article } from '../article';
 })
 export class DashboardComponent implements OnInit {
 
-  articles: Article[];
-
-  constructor(private articleService: ArticleService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.getArticles();
-  }
-
-  getArticles() : void {
-    this.articleService.getArticles().subscribe(article => this.articles = article);
   }
 
 }
