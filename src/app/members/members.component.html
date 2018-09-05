@@ -1,14 +1,17 @@
 <div class="main-wrapper">
   <app-navigation-bar></app-navigation-bar>
   <h2>Ledenlijst</h2>
-  <ul class="members">
-    <li *ngFor="let member of members">
-      <div class="card">
-          <img src="../../assets/profile/{{member.getProfilePicture()}}.jpg" >
+
+  <div class="member">
+    <ul>
+      <li *ngFor="let member of members">
+        <div class="card">
+          <img src="../../assets/profile/{{member.getProfilePicture()}}.jpg">
           <div class="card-content">
-            <a routerLink="/member/{{member.getIdString()}}">{{member.getFullName() }}</a>
+            <a routerLink="/member/{{member.getIdString()}}">{{ member.getFullName() }}</a>
           </div>
-      </div>
-    </li>
-  </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>
